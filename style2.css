@@ -1,0 +1,112 @@
+
+header{
+
+    height:100vh;
+    background-image: url("1.jpg");
+}
+@media (max-width:500px) { 
+    header{
+    height: 100vh;
+    background-image: url("1.jpg"); 
+    background-size: contain;
+    background-position: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+}
+.buttonlopalaki{
+    width:100px;
+    height:45px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+
+}
+.demo{
+    height: 100vh;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+height: 100vh;
+background-color: white;
+display: flex;
+flex-direction:column;
+align-items: center;
+margin-top:40px;
+}
+    height:100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+button{
+    width:80px;
+    height:35px;
+    background: linear-gradient(to to,red,green,yellow,white);
+    border:1px solid red;
+    border-radius: 20px;
+}
+@media (max-width:500px) {
+    button{
+        width:75px;
+        height:35px;
+        background-color: red;
+        border:1px solid red;
+        border-radius: 20px;
+        text-align: center;
+
+}
+}
+.familyking{
+    width:150px;
+    height:140px;
+     background-image: url('t1.jpg');
+     border-radius: 20px;
+     background-position: center;
+     background-size: contain;
+     text-align: center;
+     cursor: pointer;
+     align-items: center;
+}
+.familydiamond{
+    width:150px;
+    height:140px;
+    background-color:green;
+    cursor: pointer;
+    background-image: url("m1.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.memories{
+    width:150px;
+    height:140px;
+    background-color:black;
+    cursor: pointer;
+    background-image: URL("FAMILY1.JPG");
+    background-position: center;
+    background-size: contain;
+}
+.marriages{
+    width:150px;
+    height:140px;
+    background-color:red;
+    text-align: center;
+    align-items: center;
+}
+a{
+    color:white;
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    height:50vh;
+    background-color: black;
+    color:red
+}
